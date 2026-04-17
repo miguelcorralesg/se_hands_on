@@ -1,0 +1,7 @@
+streamlit
+faiss-cpu
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-nvidia-ai-endpoints
+unstructured[all-docs]
