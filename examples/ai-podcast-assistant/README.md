@@ -37,8 +37,8 @@ Learn more about the model [here](https://developer.nvidia.com/blog/latest-multi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/NVIDIA/GenerativeAIExamples.git
-   cd GenerativeAIExamples/community/ai-podcast-assistant
+   git clone https://github.com/miguelcorralesg/se_hands_on.git
+   cd se_hands_on/examples/ai-podcast-assistant
    ```
 
 2. Set up your NVIDIA API key:
@@ -75,7 +75,7 @@ Running the notebook inside a dedicated virtual environment avoids dependency co
 
 1. **Create the virtual environment** inside the project folder using Python 3.11 or 3.12:
    ```bash
-   cd GenerativeAIExamples/community/ai-podcast-assistant
+   cd se_hands_on/examples/ai-podcast-assistant
    python3.11 -m venv envpodc
    ```
    > **Important:** Do not use Python 3.13 or 3.14. The `pydub` library depends on `audioop`, which was removed in Python 3.13. If you see `ModuleNotFoundError: No module named 'audioop'` or `pyaudioop`, recreate the venv with Python 3.11 or 3.12.

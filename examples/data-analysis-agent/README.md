@@ -39,8 +39,8 @@ Learn more about the models [here](https://developer.nvidia.com/blog/build-enter
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/NVIDIA/GenerativeAIExamples.git
-   cd RAG/data-analysis-agent
+   git clone https://github.com/miguelcorralesg/se_hands_on.git
+   cd examples/data-analysis-agent
    ```
 
 2. Create a Python virtual environment and activate it:

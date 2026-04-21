@@ -24,11 +24,11 @@ Because the example uses the models from the NVIDIA API Catalog, you do not need
    source genai/bin/activate
    ```
 
-1. From the root of this repository, `GenerativeAIExamples`, install the requirements:
+1. From the root of this repository, `se_hands_on`, install the requirements:
 
    ```console
    pip install --upgrade pip
-   pip install -r community/5_mins_rag_no_gpu/requirements.txt
+   pip install -r examples/5_mins_rag_no_gpu/requirements.txt
    ```
 
    > **Note:** `unstructured[all-docs]` installs many document-parsing dependencies and may take a few minutes.
@@ -44,13 +44,13 @@ Because the example uses the models from the NVIDIA API Catalog, you do not need
 1. Run the example using Streamlit:
 
    ```console
-   streamlit run community/5_mins_rag_no_gpu/main.py
+   streamlit run examples/5_mins_rag_no_gpu/main.py
    ```
 
    > **macOS note:** If you get `OMP: Error #15` (duplicate OpenMP runtime), set this variable before running:
    > ```console
    > export KMP_DUPLICATE_LIB_OK=TRUE
-   > streamlit run community/5_mins_rag_no_gpu/main.py
+   > streamlit run examples/5_mins_rag_no_gpu/main.py
    > ```
 
 1. Test the deployed example by going to `http://<host_ip>:8501` in a web browser.
