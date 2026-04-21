@@ -35,6 +35,7 @@ dist/
 
 # Data files
 *.csv
+!assets/titanic.csv
 
 # Logs
 *.log
