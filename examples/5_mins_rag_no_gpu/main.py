@@ -62,7 +62,7 @@ with st.sidebar:
 # - NVIDIAEmbeddings: converts text chunks into numeric vectors so they can be compared
 #   by similarity. model_type="passage" optimises the embedding for document indexing
 #   (vs. "query" which is used at retrieval time for the user's question).
-llm = ChatNVIDIA(model="meta/llama3-70b-instruct")
+llm = ChatNVIDIA(model="meta/llama-3.1-70b-instruct")
 document_embedder = NVIDIAEmbeddings(model="nvidia/nv-embedqa-e5-v5", model_type="passage")
 
 # ---------------------------------------------------------------------------
