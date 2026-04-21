@@ -1,5 +1,5 @@
-# NVIDIA Solutions Engineering Workshop — April 2026
-### Saudi Energy | Generative AI with NVIDIA Technology
+# Workshop — April 2026
+### Hands-on Session | Generative AI with NVIDIA NIMs
 
 
 ## Overview
